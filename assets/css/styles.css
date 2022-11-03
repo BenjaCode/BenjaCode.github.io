@@ -16,3 +16,11 @@ body{
     margin: 0 auto ;
     overflow: hidden;
 }
+
+/* -- -- Fuentes -- -- */
+@font-face{
+    font-family: "Jet Brains Mono";
+    src: url(../fonts/JetBrainsMono-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
