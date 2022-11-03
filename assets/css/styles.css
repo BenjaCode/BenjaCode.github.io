@@ -25,3 +25,52 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+
+/* -- -- Header y Nav -- -- */
+header{
+    width: 100%;
+    background-image: url(../img/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 600px;
+}
+
+header .contenedor nav{
+    margin: 40px 0;
+    text-align:  right;
+}
+
+header .contenedor nav a{
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+}
+
+header .contenedor nav a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+header .contenedor .presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto
+}
+
+header .contenedor .presentacion .texto{
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+header .contenedor .presentacion .texto h1,
+header .contenedor .presentacion .texto h2{
+    color: #fff;
+    margin: 0;
+}
