@@ -74,3 +74,34 @@ header .contenedor .presentacion .texto h2{
     color: #fff;
     margin: 0;
 }
+
+/* MAIN */
+/* ACERCA DE */
+.main .acerca-de .contenedor{
+    overflow: visible;
+}
+
+.main .acerca-de{
+    text-align: center;
+}
+
+.main .acerca-de .contenedor .foto{
+    margin-top: -75px;
+}
+
+.main .acerca-de .contenedor .foto img{
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, .2);
+}
+
+.main .acerca-de .contenedor .texto{
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+
+.main .acerca-de .contenedor .texto .titulo{
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #6499E7;
+}
