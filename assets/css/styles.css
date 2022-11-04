@@ -215,3 +215,49 @@ footer .contacto .contenedor .formulario .btn{
 footer .contacto .contenedor .formulario .btn:hover{
     background-color: #8E9CD3;
 }
+
+/* REDES SOCIALES */
+footer .redes-sociales{
+    background-color: #6499E7;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales .contenedor a{
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+footer .redes-sociales .contenedor i{
+    padding: 8px 0;
+    border-radius: 4px;
+    width: 100px;
+}
+
+footer .redes-sociales .contenedor .twitter{
+    background-color: #1da1f2;
+}
+
+footer .redes-sociales .contenedor .facebook{
+    background-color: #3b5998;
+}
+
+footer .redes-sociales .contenedor .youtube{
+    background-color: #cd201f;
+}
+
+footer .redes-sociales .contenedor .instagram{
+    background-color: #3f729b;
+}
+
+footer .redes-sociales .contenedor .github{
+    background-color: #666;
+}
