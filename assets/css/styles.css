@@ -153,3 +153,65 @@ header .contenedor .presentacion .texto h2{
     color: #6499E7;
     margin-bottom: 10px;
 }
+
+/* FOOTER */
+/* CONTACTO */
+footer .contacto{
+    padding: 60px 0;
+}
+
+footer .contacto .titulo{
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #6499E7;
+    text-align: center;
+}
+
+footer .contacto .contenedor .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .contacto .contenedor .formulario input[type="text"], 
+footer .contacto .contenedor .formulario input[type="email"], 
+footer .contacto .contenedor .formulario textarea{
+    border: 2px solid #6499E7;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+footer .contacto .contenedor .formulario input[type="text"]:focus, 
+footer .contacto .contenedor .formulario input[type="email"]:focus, 
+footer .contacto .contenedor .formulario textarea:focus{
+    border: 2px solid #8E9CD3;
+}
+
+footer .contacto .contenedor .formulario input[type="text"], 
+footer .contacto .contenedor .formulario input[type="email"]{
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .contenedor .formulario textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contacto .contenedor .formulario .btn{
+    margin: auto;
+    background-color: #6499E7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+footer .contacto .contenedor .formulario .btn:hover{
+    background-color: #8E9CD3;
+}
