@@ -242,14 +242,6 @@ footer .redes-sociales .contenedor i{
     width: 100px;
 }
 
-footer .redes-sociales .contenedor .twitter{
-    background-color: #1da1f2;
-}
-
-footer .redes-sociales .contenedor .facebook{
-    background-color: #3b5998;
-}
-
 footer .redes-sociales .contenedor .youtube{
     background-color: #cd201f;
 }
@@ -258,6 +250,10 @@ footer .redes-sociales .contenedor .instagram{
     background-color: #3f729b;
 }
 
-footer .redes-sociales .contenedor .github{
-    background-color: #666;
+footer .redes-sociales .contenedor .twitch{
+    background-color: #9146ff;
+}
+
+footer .redes-sociales .contenedor .tiktok{
+    background-color: #000;
 }
