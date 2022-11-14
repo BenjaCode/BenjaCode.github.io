@@ -106,6 +106,22 @@ header .contenedor .presentacion .texto h2{
     color: #6499E7;
 }
 
+.main .acerca-de .contenedor .texto p{
+    margin-bottom: 20px;
+}
+
+.main .acerca-de .contenedor .texto a{
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #6499E7;
+    color: #fff;
+}
+
+.main .acerca-de .contenedor .texto a:hover{
+    background-color: #8E9CD3;
+}
+
 /* TRABAJOS */
 .main .trabajos{
     padding: 60px auto;
