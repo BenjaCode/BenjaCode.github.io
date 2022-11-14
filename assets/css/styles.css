@@ -246,6 +246,12 @@ footer .redes-sociales .contenedor .tiktok:hover{
         text-align:  center;
     }
 
+    /* Trabajos */
+    .main .trabajos .contenedor .contenedor-trabajos .trabajo{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
     /* Redes Sociales */
     footer .redes-sociales .contenedor{
         display: flex;
