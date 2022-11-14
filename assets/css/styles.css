@@ -178,6 +178,13 @@ header .contenedor .presentacion .texto h2{
     margin-bottom: 10px;
 }
 
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .categoria .html{
+    color: #e34f26;
+}
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .categoria .css{
+    color: #2965f1;
+}
+
 .main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces{
     display: flex;
     flex-direction: row;
