@@ -193,24 +193,49 @@ footer .redes-sociales .contenedor a{
 
 footer .redes-sociales .contenedor i{
     padding: 8px 0;
-    border-radius: 4px;
+    border-radius: 8px;
     width: 100px;
+    border: 1px solid transparent;
 }
 
 footer .redes-sociales .contenedor .youtube{
     background-color: #cd201f;
 }
 
+footer .redes-sociales .contenedor .youtube:hover{
+    color: #cd201f;
+    border: 1px solid #cd201f;
+    background-color: #fff;
+}
+
 footer .redes-sociales .contenedor .instagram{
     background-color: #3f729b;
+}
+
+footer .redes-sociales .contenedor .instagram:hover{
+    color: #3f729b;
+    border: 1px solid #3f729b;
+    background-color: #fff;
 }
 
 footer .redes-sociales .contenedor .twitch{
     background-color: #9146ff;
 }
 
+footer .redes-sociales .contenedor .twitch:hover{
+    color: #9146ff;
+    border: 1px solid #9146ff;
+    background-color: #fff;
+}
+
 footer .redes-sociales .contenedor .tiktok{
     background-color: #000;
+}
+
+footer .redes-sociales .contenedor .tiktok:hover{
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
 }
 
 /* -- -- Media Queries -- -- */
