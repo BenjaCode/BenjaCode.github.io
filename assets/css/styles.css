@@ -125,6 +125,7 @@ header .contenedor .presentacion .texto h2{
 /* TRABAJOS */
 .main .trabajos{
     padding: 60px auto;
+    margin-bottom: 40px;
 }
 
 .main .trabajos .contenedor{
@@ -146,8 +147,11 @@ header .contenedor .presentacion .texto h2{
 }
 
 .main .trabajos .contenedor .contenedor-trabajos .trabajo{
-    width: 23%;
-    margin-bottom: 40px;
+    width: 30%;
+    border: 1px solid #6499E7;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(100, 153, 231, .25);
 }
 
 .main .trabajos .contenedor .contenedor-trabajos .trabajo .imagen{
@@ -168,6 +172,58 @@ header .contenedor .presentacion .texto h2{
 .main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .nombre{
     color: #6499E7;
     margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces a{
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces a:last-child{
+    margin-right: 0;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces .figma{
+    color: #fff;
+    background-color: #f24e1e;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces .figma:hover{
+    color: #f24e1e;
+    background-color: #fff;
+    border: 1px solid #f24e1e;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces .github{
+    color: #fff;
+    background-color: #000;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces .github:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces .navegador{
+    color: #fff;
+    background-color: #6499E7;
+    padding: 4px 11.75px;
+}
+
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .enlaces .navegador:hover{
+    color: #6499E7;
+    background-color: #fff;
+    border: 1px solid #6499E7;
 }
 
 /* FOOTER */
