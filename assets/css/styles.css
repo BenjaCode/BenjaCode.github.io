@@ -212,3 +212,23 @@ footer .redes-sociales .contenedor .twitch{
 footer .redes-sociales .contenedor .tiktok{
     background-color: #000;
 }
+
+/* -- -- Media Queries -- -- */
+@media screen and (max-width:890px) {
+    /* Menu */
+    header .contenedor nav{
+        margin: 40px 0;
+        text-align:  center;
+    }
+
+    /* Redes Sociales */
+    footer .redes-sociales .contenedor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    footer .redes-sociales .contenedor a{
+        margin-bottom: 20px;
+    }
+}
